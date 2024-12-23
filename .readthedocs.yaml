@@ -1,0 +1,26 @@
+version: 2
+
+# The name of your project. This should be the same as the project name in Read the Docs.
+# Read the Docs will use this to associate the documentation with your project.
+name: custom_api_client
+
+# This defines the default version that Read the Docs will build.
+# You can set this to `main` or any other branch/tag name you want to use.
+version: main
+
+# Build system configuration, typically for Sphinx projects.
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.8"
+
+# Configuration for your documentation source. Typically, this will point to the folder where your `index.rst` or `index.md` resides.
+# Update this according to where your documentation is located.
+source:
+  dir: docs
+
+# This defines the Python requirements for the build.
+# Read the Docs will install the dependencies from this file.
+requirements:
+  files:
+    - requirements.txt
