@@ -9,7 +9,7 @@ setup(
     description="A Python client for interacting with OpenWeatherMap API.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/QMSS-G5072-2024/final_Zirui-Wang",
+    url="https://github.com/Zirui997/zack_wang-final-project", 
     author="Zirui-Wang",
     author_email="zw3055@columbia.edu",
     classifiers=[
