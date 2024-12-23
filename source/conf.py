@@ -1,27 +1,18 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
 # -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
-
 project = 'custom_api_client'
 copyright = '2024, Zirui-Wang'
 author = 'Zirui-Wang'
 
 # -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
-extensions = []
+extensions = [
+    'sphinx_rtd_theme',  # This enables the Read the Docs theme
+    'sphinx.ext.autodoc',  # Enables automatic documentation generation from docstrings
+    'sphinx.ext.viewcode',  # Enables the 'View Source' link in the documentation
+]
 
 templates_path = ['_templates']
 exclude_patterns = []
 
-
-
 # -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'  # Use the RTD theme
 html_static_path = ['_static']

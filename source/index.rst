@@ -3,15 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-custom_api_client documentation
-===============================
+Welcome to custom_api_client's documentation!
+=============================================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+This is a Python client for interacting with the OpenWeatherMap API.
 
+Installation
+------------
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+You can install the package using pip:
 
