@@ -1,4 +1,4 @@
-version: 1
+version: 2
 # The name of your project. This should match the project name on Read the Docs.
 name: custom_api_client
 
